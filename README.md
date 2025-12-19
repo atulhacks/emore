@@ -8,7 +8,7 @@
 
 A lightweight Rust-based dropper that uses indirect syscalls and cryptographic obfuscation to bypass modern security solutions.
 
-**Author:** [@atuhacks](https://github.com/atuhacks)
+**Author:** [@atulhacks](https://github.com/atulhacks)
 
 ---
 
@@ -32,7 +32,7 @@ A lightweight Rust-based dropper that uses indirect syscalls and cryptographic o
 
 ```bash
 # Clone repository
-git clone https://github.com/atuhacks/emore.git
+git clone https://github.com/atulhacks/emore.git
 cd emore
 
 # Generate shellcode (example: calc.exe)
@@ -137,13 +137,13 @@ Contributions welcome! Submit PRs for:
 
 ---
 
-## ��� License
+## 📜 License
 
 MIT License - See [LICENSE](LICENSE) for details.
 
 ---
 
-## ��� Credits
+## 🙏 Credits
 
 - **Indirect Syscalls** - Inspired by HellsGate/HalosGate research
 - **Rust Security Community** - For awesome security primitives
@@ -151,6 +151,6 @@ MIT License - See [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  <sub>Built with ��� Rust | © 2025 atulhack</sub><br>
+  <sub>Built with 🦀 Rust | © 2025 atulhacks</sub><br>
   <sub>⚠️ Use responsibly. Educational purposes only.</sub>
 </p>
