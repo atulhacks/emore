@@ -1,0 +1,25 @@
+[package]
+name = "emore"
+version = "0.1.1"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+num_cpus = "1.15"       
+sysinfo = "0.29"        
+chacha20poly1305 = "0.10.1" 
+base64 = "0.22.1"
+rustc-hash = "2.0"
+itertools = "0.13"
+winapi = { version = "0.3", features = ["libloaderapi", "processthreadsapi", "psapi", "winnt", "memoryapi"] }
+
+[build-dependencies]
+chacha20poly1305 = "0.10.1" 
+rand = "0.8.5"
+rand_core = "0.6.4"
+base64 = { version = "0.22.1", features = ["std"] }
+winres = "0.1"
+
+[profile.release]
+strip = false  # Keep icons (makes the file larger and more trustworthy for some scanners)
+opt-level = 3  # Standard optimization
