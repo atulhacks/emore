@@ -78,7 +78,7 @@ cargo build --release
 ### VirusTotal Detection
 **Detection Rate:** 7/72 (90.3% evasion)
 
-![VirusTotal Results](emoretest.png)
+![VirusTotal Results](./img/emoretest.png)
 
 **Bypasses:**
 - ✅ Windows Defender
